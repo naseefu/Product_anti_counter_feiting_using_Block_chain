@@ -18,7 +18,7 @@ The smart contract component contains the blockchain smart contracts responsible
 1. **Install Node Modules:**
    Run the following command in the terminal to install the required Node.js modules:
 	
-   	npm install
+       npm install
 
 
 2. **Setup PostgreSQL:**
@@ -33,7 +33,7 @@ Start the PostgreSQL server. You can do this through pgAdmin or using a command-
 2. **Run Backend:**
 Navigate to the backend directory and run the following command to start the Node.js server:
 
-	node postgres.js
+       node postgres.js
 
 
 Alternatively, you can use the following command:
@@ -44,7 +44,7 @@ Alternatively, you can use the following command:
 3. **Run Frontend:**
 Open a new terminal window, navigate to the frontend directory, and run the following command to start the React.js application:
 
-	npm start
+       npm start
 
 
 4. **Access the Application:**
