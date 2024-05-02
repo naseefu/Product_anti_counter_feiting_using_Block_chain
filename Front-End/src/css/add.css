@@ -1,0 +1,101 @@
+/* AddAccount.css */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.errmsg {
+  color: red;
+  text-align: center;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.paper-container {
+  width: 400px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  /* Adding a blur effect */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Gambetta', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.password-mismatch {
+  text-align: center;
+  font-size: 12px;
+  color: red;
+}
+
+.image-upload-button {
+  width: 100%;
+  margin-top: 3%;
+  background-color: #98b5d5;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.image-upload-button:hover {
+  background-color: #618dbd;
+}
+
+.preview-image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.submit-button {
+  width: 100%;
+  margin-top: 3%;
+  background-color: #98b5d5;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #618dbd;
+}
+
+.back-button {
+  margin-top: 5%;
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}

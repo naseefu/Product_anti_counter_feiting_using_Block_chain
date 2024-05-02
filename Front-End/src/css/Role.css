@@ -1,0 +1,78 @@
+.role-container {
+    /* background: linear-gradient(to right bottom, #4e54c8, #8f94fb); */
+    background: url('../img/bg12.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.role-container-box {
+    width: 400px;
+    max-width: 90%;
+    height: auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.role-container-box h1 {
+    color: #333;
+    font-size: 2.5rem;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+.role-container-box h2 {
+    color: #666;
+    font-size: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+form.role {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form.role input[type="text"],
+form.role input[type="email"],
+form.role textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form.role button {
+    padding: 10px 20px;
+    background-color: #4e54c8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form.role button:hover {
+    background-color: #434190;
+}
+
+@media (max-width: 768px) {
+    .role-container-box {
+        width: 90%;
+    }
+}
+
+/* Role.css */
+
