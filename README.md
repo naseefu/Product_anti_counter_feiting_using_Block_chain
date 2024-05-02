@@ -1,5 +1,7 @@
 # Product Anti-Counterfeiting using Blockchain with QR Code Implementation
 
+[github](https://github.com/naseefu/Product_anti_counter_feiting_using_Block_chain)
+
 This project aims to combat product counterfeiting by leveraging blockchain technology along with QR code implementation. It consists of three main components: backend, frontend, and smart contract.
 
 ## Components
